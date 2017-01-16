@@ -30,6 +30,6 @@ public class PauseMenuButtons : MonoBehaviour {
     public void RestartButton()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("99_TestLevel");
+        SceneManager.LoadScene("99_TestLevel", LoadSceneMode.Single);
     }
 }
